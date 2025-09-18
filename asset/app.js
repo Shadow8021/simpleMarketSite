@@ -21,16 +21,25 @@
 
 //creation de deux variables de meme nom dans deux fonctions differentes
 
-let direBonjour=()=>{
-    var nom = "oyaga"
-    console.log("bonjour a vous",nom);
+// let direBonjour=()=>{
+//     var nom = "oyaga"
+//     console.log("bonjour a vous",nom);
     
-}
-function saluer(){
-    //var nom ="martial"
-    console.log("mes salutations a vous",nom);
+// }
+// function saluer(){
+//     var nom ="martial"
+//     console.log("mes salutations a vous",nom);
     
+// }
+
+// direBonjour()
+// saluer()
+
+// essayer d'assigner une constante
+
+let calculer=()=>{
+    const nombre = 12
+    nombre = 14
 }
 
-direBonjour()
-saluer()
+calculer()
