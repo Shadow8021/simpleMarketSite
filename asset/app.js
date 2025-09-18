@@ -39,7 +39,11 @@
 
 let calculer=()=>{
     const nombre = 12
-    nombre = 14
+    let addition=()=>{
+        console.log(2+nombre);
+        
+    }
+    addition()
 }
 
 calculer()
