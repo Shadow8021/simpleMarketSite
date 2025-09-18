@@ -37,13 +37,26 @@
 
 // essayer d'assigner une constante
 
-let calculer=()=>{
-    const nombre = 12
-    let addition=()=>{
-        console.log(2+nombre);
+// let calculer=()=>{
+//     const nombre = 12
+//     let addition=()=>{
+//         console.log(2+nombre);
         
-    }
-    addition()
+//     }
+   
+// }
+
+// calculer()
+
+// verification si une variable declarer sans let/var/const est globale
+
+{
+    ge = 12
+    var nom ="martial"
+    
 }
 
-calculer()
+console.log(age);
+console.log(nom);
+
+
