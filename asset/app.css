@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    background-color: black;
+}
+
+section{
+    background-color: yellowgreen;
+}
+
+section  h2{
+    color: green;
+    font-size: 30px;
+    background-color: blue;
+}
+
+div{
+    background-color: grey;
+}
