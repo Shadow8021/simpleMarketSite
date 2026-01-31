@@ -50,13 +50,15 @@
 
 // verification si une variable declarer sans let/var/const est globale
 
-{
-    ge = 12
-    var nom ="martial"
+// {
+//     age = 12
+//     var nom ="martial"
     
-}
+// }
+
+// console.log(age);
+// console.log(nom);
 
 console.log(age);
-console.log(nom);
-
+var age = 12
 
