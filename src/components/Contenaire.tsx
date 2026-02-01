@@ -1,7 +1,11 @@
-import React from 'react'
+import {ReacNode} from 'react'
 
-export default function Contenaire() {
+type ContenaireProps ={
+  className?:string,
+  children: ReacNode 
+}
+export default function Contenaire({children,className}: ContenaireProps) {
   return (
-    <div>Contenaire</div>
+    <div className={`contenaire ${className}`}>{children}</div>
   )
 }

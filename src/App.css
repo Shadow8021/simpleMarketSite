@@ -176,3 +176,9 @@ footer p a{
     font-weight: bold;
     text-decoration: none;
 }
+.contenaire{
+    margin: 0 auto;
+    padding: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
