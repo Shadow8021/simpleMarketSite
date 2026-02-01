@@ -9,7 +9,7 @@ export default function Produits() {
             <div key={index} className="produit" id="produits">
                 <div className="card">
                     <div className="img">
-                        <img src="../../assets/img/2.jpg" alt="produitImg"/>
+                        <img src={el.image} alt="produitImg"/>
                     </div>
                     <div className="info">
                         <span className="desc">{el.desc}</span>
