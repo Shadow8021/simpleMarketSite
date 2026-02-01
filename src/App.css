@@ -39,8 +39,16 @@ nav ul li{
 nav ul li:hover{
     border-bottom: 4px solid crimson;
 }
-
-
+.indiceContaine{
+    position:relative;
+    cursor:pointer;
+}
+.shopIndice{
+    position:absolute;
+    color: #ff295e;
+    font-weight: bold;
+    top:54;
+}
 
 .containte{
     background-image: url("./assets/img/Bg_banner.jpg");

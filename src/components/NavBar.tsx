@@ -1,3 +1,5 @@
+import { ShoppingCart } from 'lucide-react';
+
 export default function NavBar() {
   return (
     <div>
@@ -8,7 +10,12 @@ export default function NavBar() {
             <li><a href="#">Nouveautés</a></li>
             <li><a href="#">Solde</a></li>
             <li><a href="#">Contact</a></li>
+            <span className="indiceContaine">
+              <ShoppingCart color="#ff295e" size={20}/>
+              <span className="shopIndice">0</span>
+            </span>
         </ul>
+        
     </nav>
     </div>
   )
