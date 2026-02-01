@@ -43,7 +43,7 @@ nav ul li:hover{
 
 
 .containte{
-    background-image: url("/asset/img/Bg_banner.jpg");
+    background-image: url("./assets/img/Bg_banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 5%;
@@ -53,6 +53,7 @@ nav ul li:hover{
     align-items: flex-start;
     height: 100vh;
     background-position: center;
+
 }
 .containte h1{
     font-size: 32px;
@@ -131,6 +132,7 @@ nav ul li:hover{
     border-radius: 4px;
     background-color: transparent;
     transition: 0.23s ease-in;
+    cursor:pointer;
 
 }
 .card .achat button:hover{
