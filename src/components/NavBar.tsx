@@ -12,7 +12,7 @@ export default function NavBar() {
             <li><a href="#">Contact</a></li>
             <span className="indiceContaine">
               <ShoppingCart color="#ff295e" size={20}/>
-              <span className="shopIndice">0</span>
+              <span className="shopIndice">2</span>
             </span>
         </ul>
         
